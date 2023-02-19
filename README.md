@@ -2,7 +2,7 @@
 
 *How to contribute to the BotSpeak project*
 
-Run some of the phrases we proivde related to semantic linguistic concepts with your favorite image generating large language model and send the image results along with your interpretation of how well the LLM interpeted the phrase to ai<at>skunks.ai  
+Run some of the phrases we proivde related to semantic linguistic concepts with your favorite image generating large language model and send the image results along with your interpretation of how well the LLM interpeted the phrase to *ai at skunks.ai*  
 
 The semantic linguistic concept phrase list is here 
 
