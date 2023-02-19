@@ -1,4 +1,11 @@
 # BotSpeak
+
+*How to contribute to the BotSpeak project*
+
+Run some of the phrases we proivde related to semantic linguistic concepts with your favorite image generating large language model and send the image results along with your interpretation of how well the LLM interpeted the phrase to ai<at>skunks.ai  
+
+The semantic linguistic concept phrase list is here 
+
 *How to Speak Bot*  
 
 Large language models (LLMs) represent a major advance in artificial intelligence (AI), and are the basis of power tools such as ChatGPT and DALL-E . A large language model is a deep learning algorithm that can recognize, summarize, translate, predict and generate text and other content based on knowledge gained from massive datasets. Large language models are among the most successful applications of transformer models. It’s sometimes that the deep learning models are “just statistics,” and any rogress in AI is illusory with regard to a Turung test like artificial general intelligence (AGI). 
