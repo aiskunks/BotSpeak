@@ -27,6 +27,9 @@ For example, in the sentence Cinderella arrived, but nobody saw her, the pronoun
 Anaphora (in the narrow sense, species of endophora)
 a. Cinderella dropped the plate. It shattered loudly. – The pronoun it is an anaphor; it points to the left toward its antecedent the plate.
 
-See and contribute your examples here  
+
+The Anaphora linguistic concept phrase list that we currently use is:
+
+
 
 
