@@ -1,32 +1,53 @@
-# BotSpeak
+# DALLE 2 Bot Speak
 
-*How to contribute to the BotSpeak project*
-
-Run some of the phrases we proivde related to semantic linguistic concepts with your favorite image generating large language model and send the image results along with your interpretation of how well the LLM interpeted the phrase to ai<at>skunks.ai  
-
-The semantic linguistic concept phrase list is here 
-
-*How to Speak Bot*  
-
-Large language models (LLMs) represent a major advance in artificial intelligence (AI), and are the basis of power tools such as ChatGPT and DALL-E . A large language model is a deep learning algorithm that can recognize, summarize, translate, predict and generate text and other content based on knowledge gained from massive datasets. Large language models are among the most successful applications of transformer models. It’s sometimes that the deep learning models are “just statistics,” and any rogress in AI is illusory with regard to a Turung test like artificial general intelligence (AGI). 
-
-Here I take the view that LLMs are very powerful and useful tools, but to use them effectively one needs to understand how they “think.” Just one needs to often learn another language to effectively communicate in another country one needs to learn “botspeak” to effectively use these tools. 
-
-To explore botspeak I will, test several LLMs with several formal semantic linguistic concepts and visualize the output. These are concepts that are very naturally learned by very young children.  Specifically the LLMs will be prompted with phrases related to the following semantic linguistic concepts:anaphora, ambiguity, binding, conditionals, definiteness, disjunction, evidentiality, focus, indexicality, lexical semantics, modality, negation, propositional attitudes, tense–aspect–mood, quantification, and vagueness.
-
-I tested the phrases with two art bots Dall-E and artspace.ai. Readers are encouraged to test LLMs with phrases related to the semantic concepts themselves. These phrases and our results can be found at the AI Skunkworks BotSpeak GitHub  
+Subject
 
 
-Anaphora
+Artist
 
-Anaphora is the use of an expression whose interpretation depends upon another expression in context (its antecedent or postcedent). In a narrower sense, anaphora is the use of an expression that depends specifically upon an antecedent expression and thus is contrasted with cataphora, which is the use of an expression that depends upon a postcedent expression. The anaphoric (referring) term is called an anaphor. 
+Style
 
-For example, in the sentence Cinderella arrived, but nobody saw her, the pronoun her is an anaphor, referring back to the antecedent Cinderella. In the sentence Before her arrival, nobody saw Cinderella, the pronoun her refers forward to the postcedent Cinderella, so her is now a cataphor (and an anaphor in the broader, but not the narrower, sense). Usually, an anaphoric expression is a pro-form or some other kind of deictic (contextually dependent) expression.[1] Both anaphora and cataphora are species of endophora, referring to something mentioned elsewhere in a dialog or text.
+Perspective
+
+Zoom in/out with the scale parameter
+
+*Can one use parameters to zoom in or out when generating a Dalle image from text?*   
 
 
-Anaphora (in the narrow sense, species of endophora)
-a. Cinderella dropped the plate. It shattered loudly. – The pronoun it is an anaphor; it points to the left toward its antecedent the plate.
+Yes, it is possible to use parameters to adjust the zoom level of a DALL-E image when generating it from text.
 
-See and contribute your examples here  
+DALL-E is a neural network model that uses text as input to generate images, and it supports a range of different parameters that can be adjusted to control various aspects of the generated image. One of these parameters is the scale, which controls the size of the objects in the image relative to the input text.
+
+By adjusting the scale parameter, you can effectively zoom in or out on the image that is generated from the input text. Increasing the scale will make the objects in the image appear larger and closer, effectively zooming in on the image, while decreasing the scale will make the objects appear smaller and further away, effectively zooming out on the image.
+
+It's worth noting that adjusting the scale parameter can also impact the overall composition and style of the image, so you may need to experiment with different values to find the right balance between the desired zoom level and the overall appearance of the generated image.
+
+Sure, here's an example of how you can adjust the scale parameter when using DALL-E to generate an image from text:
+
+Let's say you want to generate an image of a small red apple using DALL-E. You can provide the following prompt:
+
+```python
+"small red apple" with scale=2
+```
+
+
+In this prompt, "small red apple" is the text input that describes the image you want to generate, and scale=2 is the parameter that sets the scale of the objects in the image to 2.   
+
+This means that the apple in the generated image will be twice as large as it would be if the scale parameter were set to its default value of 1. This effectively zooms in on the apple and makes it appear closer to the viewer.    
+
+You can also adjust the scale parameter to a value less than 1 to zoom out on the image. For example:    
+
+```python
+"small red apple" with scale=0.5
+```
+
+In this prompt, the apple in the generated image would be half the size it would be with the default scale parameter. This effectively zooms out on the image and makes the apple appear smaller and further away from the viewer.   
+
+It's worth noting that the exact behavior of the scale parameter may depend on the specific implementation of DALL-E that you are using, and the scale values that work best for your application may require some experimentation and tuning.    
+
+
+Format
+
+
 
 
